@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 body {
@@ -24,7 +25,7 @@ h1 {
     display: inline;
     vertical-align: middle;
     font-size: 55px;
-    font-family: Arial, sans-serif;
+
 }
 
 .container-main{
@@ -63,14 +64,15 @@ h1 {
     border: 2px solid lightgray;
 }
 
-#new-task {
+
+
+/* #new-task {
     padding-left: 35px;
     padding-top: 35px;
-}
+} */
 
 h2 {
     display: inline;
-    font-family: Arial, sans-serif;
 }
 
 .list-title {
@@ -81,9 +83,38 @@ ul{
     list-style: none;
 }
 
-.tick-mark {
-    background-color: red;
-    width: 50px;
-    height: 50px;
+.mark {
+    background-color: white;
+    font-size: 13px;
+    /* color: green; */
+    width: 15px;
+    height: 15px;
     display: inline-block;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 100%;
+    /* border: 1px solid green; */
+}
+
+.mark.cross {
+    color:red;
+    border: 1px solid red;
+}
+
+.mark.tick {
+    color: green;
+    border: 1px solid green;
+}
+
+.tag {
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.tag.editorial {
+    background-color: rgb(92, 153, 251);
 }
