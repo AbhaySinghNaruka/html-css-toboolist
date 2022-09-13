@@ -32,10 +32,7 @@ h1 {
     width: 1200px;
     background-color: white;
     margin: 0 auto;
-    /* padding-left: 35px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid lightgray; */
+    padding-bottom: 70px;
 }
 
 .sub-container {
@@ -49,14 +46,18 @@ h1 {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid lightgray;
+    
+}
+
+button {
+    cursor: pointer;
 }
 
 #first-button {
-    background-color: rgb(92, 153, 251);
+    background-color: #45ABEA;
     color: white;
     padding: 5px;
-    border: 2px solid rgb(92, 153, 251);
-    
+    border: 2px solid #45ABEA; 
     border-radius: 5px;
     
 }
@@ -70,17 +71,6 @@ h1 {
     border: 2px solid lightgray;
 }
 
-
-
-/* #new-task {
-    padding-left: 35px;
-    padding-top: 35px;
-} */
-
-h2 {
-    display: inline;
-}
-
 .list-title {
     padding-bottom: 15px;
 }
@@ -92,14 +82,12 @@ ul{
 .mark {
     background-color: white;
     font-size: 13px;
-    /* color: green; */
     width: 15px;
     height: 15px;
     display: inline-block;
     text-align: center;
     line-height: 15px;
     border-radius: 100%;
-    /* border: 1px solid green; */
 }
 
 .mark.cross {
@@ -118,15 +106,31 @@ ul{
     color: white;
     margin-left: 5px;
     border-radius: 20px;
-    padding: 6px;
+    padding: 5px;
 }
 
 .tag.editorial {
-    background-color: rgb(92, 153, 251);
+    background-color: #45ABEA;
 }
 
 .tag.q1-goals {
     background-color: rgb(156, 114, 228);
+}
+
+.tag.recruiting {
+    background-color: #64C0A9;
+}
+
+.tag.mobile {
+    background-color: #F29E33;
+}
+
+.tag.website {
+    background-color: #D863A1;
+}
+
+.tag.sales {
+    background-color: #B0C926;
 }
 
 section.schedule {
