@@ -29,7 +29,7 @@ h1 {
 }
 
 .container-main{
-    max-width: 1200px;
+    width: 1200px;
     background-color: white;
     margin: 0 auto;
     /* padding-left: 35px;
@@ -38,8 +38,14 @@ h1 {
     border-bottom: 1px solid lightgray; */
 }
 
+.sub-container {
+    width: 85%;
+    
+    margin: 0 auto;
+}
+
 .buttons {
-    padding-left: 35px;
+    
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid lightgray;
@@ -112,9 +118,21 @@ ul{
     color: white;
     margin-left: 5px;
     border-radius: 20px;
-    padding: 5px;
+    padding: 6px;
 }
 
 .tag.editorial {
     background-color: rgb(92, 153, 251);
+}
+
+.tag.q1-goals {
+    background-color: rgb(156, 114, 228);
+}
+
+section.schedule {
+    margin-top: 30px;
+}
+
+li {
+    margin-top: 15px;
 }
