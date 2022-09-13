@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(237, 237, 237);
+}
+
+.container-header {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.img-logo {
+    vertical-align: middle;
+    width: 70px;
+   
+}
+
+h1 {
+    display: inline;
+    vertical-align: middle;
+    font-size: 55px;
+    font-family: Arial, sans-serif;
+}
+
+.container-main{
+    max-width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+    /* padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray; */
+}
+
+.buttons {
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+#first-button {
+    background-color: rgb(92, 153, 251);
+    color: white;
+    padding: 5px;
+    border: 2px solid rgb(92, 153, 251);
+    
+    border-radius: 5px;
+    
+}
+
+#second-button {
+    background-color: white;
+    color: lightgray;
+    border: 2px gray;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+}
+
+#new-task {
+    padding-left: 35px;
+    padding-top: 35px;
+}
+
+h2 {
+    display: inline;
+    font-family: Arial, sans-serif;
+}
+
+.list-title {
+    padding-bottom: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+.tick-mark {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
